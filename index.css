@@ -1,0 +1,197 @@
+/*GENERAL STYLE*/
+:root{
+    --white: #F5F5F5;
+    --lwhite: #E5E5E5;
+    --black: #212121;
+    --dpale: #313131;
+    --primary: #7608f6;
+    
+    /*--BORDER RADIUS--*/
+    --br: 0.6rem;
+}
+
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--lwhite);
+    padding: 10px;
+    font-family: arial, sans-serif;
+}
+
+.fw{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.ac{
+    align-items: center;
+}
+
+.jc{
+    justify-content: center;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.section{
+    margin: 30px 0;
+    padding: 40px 15px;
+    border-radius: 10px;
+    background: var(--white);
+}
+
+.section-title{
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.btn-list{
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.btn{
+    min-width: fit-content;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----+++++PRIMARY BUTTONS+++++-----*/
+
+/*-----BUTTON 1-----*/
+.btn.primary1{
+    background: var(--primary);
+    color: var(--white);
+    border-radius: var(--br);
+}
+
+/*-----BUTTON 2----*/
+.btn.primary2{
+    padding: 5px 5px 5px 20px;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: var(--br);
+    gap: 10px;
+}
+.btn.primary2 span{
+    width: 3rem;
+    height: calc(3rem - 10px);
+    border-radius: calc(var(--br) - 5px);
+    background: var(--white);
+    font-size: 16px;
+    color: var(--primary);
+}
+
+/*-----BUTTON 3-----*/
+.btn.primary3{
+    background: var(--primary);
+    color: var(--white);
+    border-radius: var(--br);
+    gap: 15px;
+}
+.btn.primary3 i{
+    font-size: 16px;
+}
+
+
+
+
+/*-----+++++SECONDARY BUTTONS+++++-----*/
+
+/*-----BUTTON 1-----*/
+.btn.secondary1{
+    border: 3px solid var(--primary);
+    background: transparent;
+    color: var(--primary);
+    border-radius: var(--br);
+}
+
+
+/*-----BUTTON 2----*/
+.btn.secondary2{
+    padding: 5px 5px 5px 20px;
+    border: 3px solid var(--primary);
+    background: transparent;
+    color: var(--primary);
+    border-radius: var(--br);
+    gap: 10px;
+}
+.btn.secondary2 span{
+    width: 3rem;
+    height: calc(3rem - 10px);
+    border-radius: calc(var(--br) - 5px);
+    background: var(--primary);
+    font-size: 16px;
+    color: var(--white);
+}
+
+/*-----BUTTON 3-----*/
+.btn.secondary3{
+    border: 3px solid var(--primary);
+    background: transparent;
+    color: var(--primary);
+    border-radius: var(--br);
+    gap: 15px;
+}
+.btn.secondary3 i{
+    font-size: 16px;
+}
+
+
+
+/*-----+++++TERTIARY BUTTONS+++++-----*/
+
+/*-----BUTTON 1-----*/
+.btn.tertiary1{
+    background: transparent;
+    color: var(--primary);
+}
+
+
+/*-----BUTTON 2----*/
+.btn.tertiary2{
+    padding: 5px 5px 5px 20px;
+    background: var(--lwhite);
+    color: var(--primary);
+    border-radius: var(--br);
+    gap: 10px;
+}
+.btn.tertiary2 span{
+    width: 3rem;
+    height: calc(3rem - 10px);
+    border-radius: calc(var(--br) - 5px);
+    background: var(--white);
+    font-size: 16px;
+    color: var(--primary);
+}
+
+/*-----BUTTON 3-----*/
+.btn.tertiary3{
+    border-bottom: 3px solid var(--primary);
+    background: transparent;
+    color: var(--primary);
+    border-radius: var(--br);
+    gap: 15px;
+}
+.btn.tertiary3 i{
+    font-size: 16px;
+}
+
+
+
